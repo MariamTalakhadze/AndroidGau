@@ -4,36 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginForActivity">
-
+    tools:context=".ActionActivity">
     <EditText
-        android:id="@+id/LoginEmail"
+        android:id="@+id/number"
+        android:inputType="number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Email"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        />
-    <EditText
-        android:id="@+id/PasswordLogin"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/call"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Password"
-        app:layout_constraintTop_toBottomOf="@+id/LoginEmail"
+        app:layout_constraintTop_toBottomOf="@+id/number"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:inputType="textPassword"
+        android:text="call"
         />
     <Button
-        android:id="@+id/Login_ID"
+        android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
-        app:layout_constraintTop_toBottomOf="@+id/PasswordLogin"
+        app:layout_constraintTop_toBottomOf="@+id/call"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:text="Text"
         />
 
 
