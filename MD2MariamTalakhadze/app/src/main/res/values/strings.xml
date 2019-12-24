@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MD2MariamTalakhadze</string>
+    <string name="Start">Start</string>
+    <string name="Score">Score: </string>
+    <string name="Gaveover">Game Over</string>
+    <string name="Finish">Finish</string>
+
+</resources>
